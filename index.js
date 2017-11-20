@@ -42,11 +42,11 @@ function viewCart() {
 
 
 function total() {
- var finalprice = 0
+ var finalPrice = 0
  for (let i = 0; i < cart.length; i++) {
    var itemi = Object.keys(cart[i]);
    var pricei = cart[i][itemi];
-   finalprice = finalprice + pricei
+   finalPrice = finalPrice + pricei
  }
  return finalprice
 }
