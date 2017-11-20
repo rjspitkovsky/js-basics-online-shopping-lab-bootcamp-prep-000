@@ -48,7 +48,7 @@ function total() {
    var pricei = cart[i][itemi];
    finalPrice = finalPrice + pricei
  }
- return finalprice
+ return finalPrice
 }
 
 function removeFromCart(item) {
